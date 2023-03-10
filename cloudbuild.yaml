@@ -1,0 +1,3 @@
+steps:
+- name: 'bash'
+  args: ['echo', 'this is a gitlab triggered build']
