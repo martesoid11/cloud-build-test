@@ -1,3 +1,5 @@
 steps:
 - name: 'bash'
   args: ['echo', 'this is a GitHub triggered build']
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
